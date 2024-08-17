@@ -12,23 +12,26 @@
     <div class="mainbox">
         <h1>Temperatre Converter</h1>
         <form>
-            <input type="number" id="input">
+            <input type="number" id="input" value="00">
             <br>
-            <input type="radio" name="" id="ctof" value="0" >
-            <label for="" class="ctof">Celcius ➡️ Farenhite</label>
+            <input type="radio" name="unit" id="ctof"  >
+            <label for="ctof" class="ctof">Celcius ➡️ Farenhite</label>
             <br>
-            <input type="radio" name="" id="ftoc">
-            <label for="" class="ftoc"> Farenhite ➡️ Celcius</label>
+            <input type="radio" name="unit" id="ftoc">
+            <label for="ftoc" class="ftoc"> Farenhite ➡️ Celcius</label>
             <br>
-            <button onclick=" temp()" class="btn" id="btn">Submit
+            <button onclick="convert()"  id="btn">Submit
 
             </button>
-            <p class="results" id="results"></p>
+            <p class="results" id="results">Output</p>
 
         </form>
     </div>
 
-    <script src="/index.js"></script>
+    <script src="/index.js">
+
+        
+    </script>
 </body>
 
 </html>

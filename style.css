@@ -36,7 +36,7 @@
     font-size:x-large;
     padding-bottom: 20px;
 }
-.btn{
+#btn{
     
     background-color: hsl(293, 62%, 56%);
     font-size: large;
@@ -44,4 +44,8 @@
     padding: 8px;
     border-radius: 10px;
     margin: 15px;
+}
+.results{
+    font-size: large;
+    color: hsl(0, 88%, 53%);
 }
